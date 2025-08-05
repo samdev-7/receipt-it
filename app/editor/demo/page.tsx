@@ -17,8 +17,8 @@ export default function Editor() {
           </div>
           <div className="bg-neutral-100 flex flex-col items-center px-4 py-12">
             <div className="w-[25rem] bg-neutral-400 h-2 translate-y-1"></div>
-            <div className="bg-white w-96 min-h-10 p-4 px-8 shrink font-mono z-10">
-              hi
+            <div className="bg-white w-[23rem] min-h-10 p-4 px-8 shrink font-mono z-10">
+              01234567890123456789012345678901
             </div>
           </div>
         </div>
