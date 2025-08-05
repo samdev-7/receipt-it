@@ -4,7 +4,7 @@ import { useRef } from "react";
 import AceEditor from "react-ace";
 
 import "ace-builds/src-noconflict/mode-javascript";
-import "ace-builds/src-noconflict/theme-github_light_default";
+import "ace-builds/src-noconflict/theme-chrome";
 import "ace-builds/src-noconflict/ext-language_tools";
 
 export default function CodeEditor() {
@@ -13,7 +13,7 @@ export default function CodeEditor() {
   return (
     <AceEditor
       mode="javascript"
-      theme="github_light_default"
+      theme="chrome"
       name="editor"
       className="grow"
       ref={aceRef}
